@@ -509,8 +509,8 @@ nav ul a:hover {
 	text-shadow: 0;
 	width: 30px;
 	height: 30px;
-	border-bottom: 3px solid whitesmoke;
-	border-right: 3px solid whitesmoke;
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
 	z-index: 9;
 	-webkit-transform: translate(-50%, 0%) rotate(45deg);
 	-moz-transform: translate(-50%, 0%) rotate(45deg);
@@ -521,14 +521,14 @@ nav ul a:hover {
 }
 
 .colorChangeArrow {
-    animation-name: color_change_Arrow;
+    animation-name: colorChangeArrow;
     animation-duration: 60s;
     animation-delay: 1s;
 	animation-iteration-count: infinite;
 	/* animation-direction: alternate; */
 }
 
-@-webkit-keyframes color_change_Arrow {
+@-webkit-keyframes colorChangeArrow {
 	0% { border-color: lightcoral; }
     10% { border-color: lightblue; }
     30% { border-color: lightgoldenrodyellow; }
@@ -537,7 +537,7 @@ nav ul a:hover {
     90% { border-color: lightseagreen; }
     100% { border-color: lightcoral; }
 }
-@-moz-keyframes color_change_Arrow {
+@-moz-keyframes colorChangeArrow {
 	0% { border-color: lightcoral; }
     10% { border-color: lightblue; }
     30% { border-color: lightgoldenrodyellow; }
@@ -546,7 +546,7 @@ nav ul a:hover {
     90% { border-color: lightseagreen; }
     100% { border-color: lightcoral; }
 }
-@-ms-keyframes color_change_Arrow {
+@-ms-keyframes colorChangeArrow {
 	0% { border-color: lightcoral; }
     10% { border-color: lightblue; }
     30% { border-color: lightgoldenrodyellow; }
@@ -555,7 +555,7 @@ nav ul a:hover {
     90% { border-color: lightseagreen; }
     100% { border-color: lightcoral; }
 }
-@-o-keyframes color_change_Arrow {
+@-o-keyframes colorChangeArrow {
 	0% { border-color: lightcoral; }
     10% { border-color: lightblue; }
     30% { border-color: lightgoldenrodyellow; }
@@ -564,7 +564,7 @@ nav ul a:hover {
     90% { border-color: lightseagreen; }
     100% { border-color: lightcoral; }
 }
-@keyframes color_change_Arrow {
+@keyframes colorChangeArrow {
 	0% { border-color: lightcoral; }
     10% { border-color: lightblue; }
     30% { border-color: lightgoldenrodyellow; }
